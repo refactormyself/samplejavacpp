@@ -11,7 +11,7 @@ import org.bytedeco.javacpp.annotation.*;
  * Call Loader.load() statically
  */
 
-@Platform(include="resources/MathApp2/Math.h")
+@Platform(include="../../MathApp2/Math.h")
 public class Math {
 	native int add(int a, int b);
     native int subtract(int a, int b);
